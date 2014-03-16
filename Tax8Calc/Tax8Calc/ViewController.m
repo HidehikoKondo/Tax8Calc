@@ -41,6 +41,27 @@
         [calculator input:str];
         [displayField setText:[calculator displayValue]];
     }
+    
+    // 画像を表示する
+    UIButton *btn = sender;
+
+    [self.view addSubview:btn];
+    
+    // アニメーション
+    [UIView animateWithDuration:0.13f // アニメーション速度2.5秒
+                          delay:0.0f // 1秒後にアニメーション
+                        options:UIViewAnimationOptionCurveEaseIn
+                     animations:^{
+                         // 画像を2倍に拡大
+                         btn.transform = CGAffineTransformMakeScale(1.3, 1.3);
+                         btn.alpha = 0.1;
+                         
+                     } completion:^(BOOL finished) {
+                         // アニメーション終了時
+                         NSLog(@"アニメーション終了");
+                         btn.transform = CGAffineTransformMakeScale(1.0, 1.0);
+                         btn.alpha = 1;
+                     }];
 }
 
 
@@ -49,8 +70,23 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
         calculator = [[Calculator alloc] init];
+}
 
-    
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+
+    //userdefaultsに背景色を保存
+    self.view.backgroundColor = [self colorForKey:@"color"];
+}
+
+- (UIColor *)colorForKey:(NSString *)defaultName {
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];  // 取得
+    NSData *colorData = [ud objectForKey:defaultName];
+    if (colorData!=nil) {
+        return (UIColor *)[NSKeyedUnarchiver unarchiveObjectWithData:colorData];
+    } else {
+        return nil;
+    }
 }
 
 - (void)didReceiveMemoryWarning

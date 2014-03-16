@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -12,9 +12,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <view alpha="0.84999999999999987" contentMode="scaleToFill" id="9dB-Wz-PhR">
+                                <rect key="frame" x="16" y="59" width="289" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" id="9jD-1d-MYG">
+                                        <rect key="frame" x="6" y="0.0" width="277" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                        <size key="shadowOffset" width="2" height="2"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5vr-2a-Oqv">
-                                <rect key="frame" x="16" y="217" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="16" y="185" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -23,12 +39,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QT6-TP-xD3"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="6eZ-3b-soc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="scY-BP-fPO">
-                                <rect key="frame" x="235" y="363" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="235" y="331" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -37,12 +53,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BF8-T2-gxh"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="x05-zB-haa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="r23-ef-m80">
-                                <rect key="frame" x="89" y="217" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="89" y="185" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -51,12 +67,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8KC-cx-K5g"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="6UQ-xt-naW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="09o-3P-V36">
-                                <rect key="frame" x="162" y="217" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="162" y="185" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -65,12 +81,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9sj-Rv-LfG"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="aVf-Zu-y2p"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lkc-p1-PSM">
-                                <rect key="frame" x="235" y="144" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="235" y="112" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -79,12 +95,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BQK-sY-i8S"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="4w5-QX-kzS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ldc-Sl-1E5">
-                                <rect key="frame" x="16" y="290" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="16" y="258" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -93,12 +109,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ito-MM-eB3"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="HRs-5d-Phv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B0U-FR-xJj">
-                                <rect key="frame" x="89" y="290" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="89" y="258" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -107,12 +123,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u6x-f8-Uvj"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="ofP-Sv-VKF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="z87-yn-SKt">
-                                <rect key="frame" x="162" y="290" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="162" y="258" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -121,12 +137,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RyG-Xu-iBr"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="ZUi-5z-L9e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SOf-mz-1RN">
-                                <rect key="frame" x="235" y="217" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="235" y="185" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -135,12 +151,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dRe-O7-D85"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="9Yp-kH-3ck"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="97a-dc-i5l">
-                                <rect key="frame" x="16" y="363" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="16" y="331" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -149,26 +165,26 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RkO-wI-gUg"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="z8L-Py-Sva"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tSt-7S-DQX">
-                                <rect key="frame" x="16" y="436" width="143" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="16" y="404" width="143" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="29"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
-                                <state key="normal" title="消費税">
+                                <state key="normal" title="TAX 8%">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mgL-yi-QcU"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="aWN-pu-pDw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="N5F-yU-QrC">
-                                <rect key="frame" x="89" y="363" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="89" y="331" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -177,12 +193,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qbh-RR-YIe"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="JvG-ao-Vib"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nQC-KV-BFl">
-                                <rect key="frame" x="162" y="363" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="162" y="331" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -191,12 +207,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OUv-AM-tuW"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="Nlc-Uf-aPJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="-22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Awp-gC-Cpo">
-                                <rect key="frame" x="162" y="144" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="162" y="112" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -205,12 +221,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OK8-Y1-o0u"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="YWi-Cs-4en"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MUY-Xx-MIr">
-                                <rect key="frame" x="16" y="144" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="16" y="112" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -219,12 +235,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VvQ-Fs-Zof"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="U2J-W6-Muy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W3r-g8-9ml">
-                                <rect key="frame" x="235" y="290" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="235" y="258" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -233,12 +249,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="r1g-Zi-8BD"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="02o-7x-GaL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5TX-b0-haz">
-                                <rect key="frame" x="162" y="436" width="143" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="162" y="404" width="143" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -247,12 +263,12 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IKT-xz-lv3"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="oXp-5E-ztq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SAd-xp-pUK">
-                                <rect key="frame" x="89" y="144" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="89" y="112" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                 <color key="backgroundColor" red="0.92467730978260865" green="0.92467730978260865" blue="0.92467730978260865" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="40"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
@@ -261,26 +277,26 @@
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4bS-Wi-JAM"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="f02-F5-oOq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" id="9jD-1d-MYG">
-                                <rect key="frame" x="16" y="19.99998137515751" width="277" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="50"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
-                                <size key="shadowOffset" width="2" height="2"/>
-                            </label>
                             <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Vla-1t-DOV">
-                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </adBannerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="3LL-Jp-Z3r">
-                                <rect key="frame" x="6" y="5" width="22" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3LL-Jp-Z3r">
+                                <rect key="frame" x="16" y="527" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="i">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qh3-K0-3IH" kind="modal" modalTransitionStyle="flipHorizontal" id="F9m-OF-baB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.4866228547" green="1" blue="0.80687598029999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -291,7 +307,394 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="234" y="116"/>
+            <point key="canvasLocation" x="154" y="109"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="Di3-kW-j2H">
+            <objects>
+                <viewController id="qh3-K0-3IH" customClass="SettingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dOi-B1-HRi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Mwi-Td-QZA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </adBannerView>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nqE-Pb-OfD">
+                                <rect key="frame" x="12" y="92" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="★">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="B6N-5y-NTX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f9f-5o-SRC">
+                                <rect key="frame" x="264" y="92" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="wVC-QY-Lgc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UzW-sp-exc">
+                                <rect key="frame" x="64" y="92" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="Jzy-uS-1QU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pdM-FF-hM6">
+                                <rect key="frame" x="114" y="92" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="MPO-s2-AEi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0rF-DS-NxB">
+                                <rect key="frame" x="164" y="92" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="B7X-ll-UQM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5fw-mg-QSz">
+                                <rect key="frame" x="214" y="92" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="9S2-DU-DBK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="107" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y4f-BV-v9z">
+                                <rect key="frame" x="12" y="141" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="4se-bk-W7i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1HZ-Wz-MMx">
+                                <rect key="frame" x="264" y="141" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="2d7-N8-1dt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="108" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Do9-nQ-EUx">
+                                <rect key="frame" x="64" y="141" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="TqF-eS-qZB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="109" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0ul-Or-HXY">
+                                <rect key="frame" x="114" y="141" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="OAx-CY-e5K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Yek-yd-sMM">
+                                <rect key="frame" x="164" y="141" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="qv6-bH-cj7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jYB-eB-GOJ">
+                                <rect key="frame" x="214" y="141" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="epj-4f-qQy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="113" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Idf-68-1FU">
+                                <rect key="frame" x="12" y="190" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="gMS-lG-eho"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="118" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Psz-cq-k6t">
+                                <rect key="frame" x="264" y="190" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="7eK-KC-xsn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="114" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WsK-dM-qpB">
+                                <rect key="frame" x="64" y="190" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="eTk-3q-ojq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="115" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yfX-mx-t0p">
+                                <rect key="frame" x="114" y="190" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="ITw-eu-278"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="116" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1GD-tB-3mp">
+                                <rect key="frame" x="164" y="190" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="X1y-fH-EEP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="117" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zb6-zA-LzH">
+                                <rect key="frame" x="214" y="190" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="Xzq-rv-syE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="119" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DbQ-PV-8ej">
+                                <rect key="frame" x="12" y="239" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="XGY-32-05A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="124" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nCh-pm-G4F">
+                                <rect key="frame" x="264" y="239" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="rCM-ty-zsY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="120" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aDu-1X-kHT">
+                                <rect key="frame" x="64" y="239" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="vvH-so-1IZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="121" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Eem-gV-y8J">
+                                <rect key="frame" x="114" y="239" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="46S-Vu-ClT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="122" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xqi-I8-uX8">
+                                <rect key="frame" x="164" y="239" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="hpy-wa-Ymz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="123" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IIF-yg-9cq">
+                                <rect key="frame" x="214" y="239" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectColor:" destination="qh3-K0-3IH" eventType="touchDown" id="8b4-5A-0ki"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bju-GW-7ca">
+                                <rect key="frame" x="130" y="288" width="60" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="27"/>
+                                <size key="titleShadowOffset" width="2" height="1"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="0.5" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButton:" destination="qh3-K0-3IH" eventType="touchUpInside" id="7o4-Mm-cjk"/>
+                                    <action selector="press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="I3G-EZ-Tt9"/>
+                                </connections>
+                            </button>
+                            <view alpha="0.85000002384185791" contentMode="scaleToFill" id="sr8-ym-PJa">
+                                <rect key="frame" x="12" y="62" width="96" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COLOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000298023224" id="iDN-cP-1hq">
+                                        <rect key="frame" x="0.0" y="1" width="95" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="22"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                        <size key="shadowOffset" width="2" height="2"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9tH-xP-1A1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614" y="116"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

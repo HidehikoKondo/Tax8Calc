@@ -96,7 +96,7 @@ float taxRate = 1.08;
         [input_character setString:@"-"];
     }else if([input_character isEqualToString:@"＋"]){
         [input_character setString:@"+"];
-    }else if([input_character isEqualToString:@"消費税"]){
+    }else if([input_character isEqualToString:@"TAX 8%"]){
         [input_character setString:@"T"];
     }
     NSLog(@"入力したキー2:%@",input_character);

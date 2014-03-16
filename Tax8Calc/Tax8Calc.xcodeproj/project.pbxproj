@@ -24,6 +24,8 @@
 		063E1C4B18CB6D2700A9F0B7 /* Tax8CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 063E1C4A18CB6D2700A9F0B7 /* Tax8CalcTests.m */; };
 		06A4C98118CCACF100E2F76C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A4C98018CCACF100E2F76C /* Calculator.m */; };
 		06B09CCC18CB7CAE00FE7668 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B09CCB18CB7CAE00FE7668 /* iAd.framework */; };
+		9E83017B18D54D1400C0D697 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E83017A18D54D1400C0D697 /* SettingViewController.m */; };
+		9E83017D18D54F8700C0D697 /* colorpicker.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E83017C18D54F8700C0D697 /* colorpicker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		06A4C97F18CCACF100E2F76C /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		06A4C98018CCACF100E2F76C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		06B09CCB18CB7CAE00FE7668 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		9E83017918D54D1400C0D697 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		9E83017A18D54D1400C0D697 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		9E83017C18D54F8700C0D697 /* colorpicker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorpicker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,8 @@
 				063E1C3118CB6D2700A9F0B7 /* Main_iPad.storyboard */,
 				063E1C3418CB6D2700A9F0B7 /* ViewController.h */,
 				063E1C3518CB6D2700A9F0B7 /* ViewController.m */,
+				9E83017918D54D1400C0D697 /* SettingViewController.h */,
+				9E83017A18D54D1400C0D697 /* SettingViewController.m */,
 				06A4C97F18CCACF100E2F76C /* Calculator.h */,
 				06A4C98018CCACF100E2F76C /* Calculator.m */,
 				063E1C3718CB6D2700A9F0B7 /* Images.xcassets */,
@@ -138,6 +145,7 @@
 		063E1C2318CB6D2600A9F0B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E83017C18D54F8700C0D697 /* colorpicker.png */,
 				063E1C2418CB6D2600A9F0B7 /* Tax8Calc-Info.plist */,
 				063E1C2518CB6D2600A9F0B7 /* InfoPlist.strings */,
 				063E1C2818CB6D2600A9F0B7 /* main.m */,
@@ -240,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E83017D18D54F8700C0D697 /* colorpicker.png in Resources */,
 				063E1C3318CB6D2700A9F0B7 /* Main_iPad.storyboard in Resources */,
 				063E1C3818CB6D2700A9F0B7 /* Images.xcassets in Resources */,
 				063E1C3018CB6D2700A9F0B7 /* Main_iPhone.storyboard in Resources */,
@@ -266,6 +275,7 @@
 				06A4C98118CCACF100E2F76C /* Calculator.m in Sources */,
 				063E1C2D18CB6D2600A9F0B7 /* AppDelegate.m in Sources */,
 				063E1C2918CB6D2600A9F0B7 /* main.m in Sources */,
+				9E83017B18D54D1400C0D697 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +415,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tax8Calc/Tax8Calc-Prefix.pch";
 				INFOPLIST_FILE = "Tax8Calc/Tax8Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -418,7 +430,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tax8Calc/Tax8Calc-Prefix.pch";
 				INFOPLIST_FILE = "Tax8Calc/Tax8Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
