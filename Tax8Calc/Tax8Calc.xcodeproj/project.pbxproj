@@ -25,7 +25,6 @@
 		06A4C98118CCACF100E2F76C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A4C98018CCACF100E2F76C /* Calculator.m */; };
 		06B09CCC18CB7CAE00FE7668 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B09CCB18CB7CAE00FE7668 /* iAd.framework */; };
 		9E83017B18D54D1400C0D697 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E83017A18D54D1400C0D697 /* SettingViewController.m */; };
-		9E83017D18D54F8700C0D697 /* colorpicker.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E83017C18D54F8700C0D697 /* colorpicker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 		06B09CCB18CB7CAE00FE7668 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		9E83017918D54D1400C0D697 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		9E83017A18D54D1400C0D697 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		9E83017C18D54F8700C0D697 /* colorpicker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorpicker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +143,6 @@
 		063E1C2318CB6D2600A9F0B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E83017C18D54F8700C0D697 /* colorpicker.png */,
 				063E1C2418CB6D2600A9F0B7 /* Tax8Calc-Info.plist */,
 				063E1C2518CB6D2600A9F0B7 /* InfoPlist.strings */,
 				063E1C2818CB6D2600A9F0B7 /* main.m */,
@@ -248,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E83017D18D54F8700C0D697 /* colorpicker.png in Resources */,
 				063E1C3318CB6D2700A9F0B7 /* Main_iPad.storyboard in Resources */,
 				063E1C3818CB6D2700A9F0B7 /* Images.xcassets in Resources */,
 				063E1C3018CB6D2700A9F0B7 /* Main_iPhone.storyboard in Resources */,
