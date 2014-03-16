@@ -205,7 +205,9 @@ float taxRate = 1.08;
       }else if([input_character isEqualToString:(NSString *)Tax]){
 //          _display = [NSMutableString string];
           [_display setString:[NSString stringWithFormat:@"%.f", floorf(([_display floatValue] * taxRate))]];
-          
+          _operator = nil;
+          last_character_is_operator = YES;
+
           NSLog(@"%@",_display);
       }else
       {

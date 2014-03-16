@@ -76,8 +76,13 @@
     [super viewWillAppear:animated];
 
     //userdefaultsに背景色を保存
-    self.view.backgroundColor = [self colorForKey:@"color"];
-}
+    //userdefaultsに背景色を取得して反映
+    if([self colorForKey:@"color"]){
+        self.view.backgroundColor = [self colorForKey:@"color"];
+    }else{
+        //デフォルト
+        self.view.backgroundColor = [UIColor cyanColor];
+    }}
 
 - (UIColor *)colorForKey:(NSString *)defaultName {
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];  // 取得

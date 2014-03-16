@@ -31,7 +31,12 @@
 
     
     //userdefaultsに背景色を取得して反映
-    self.view.backgroundColor = [self colorForKey:@"color"];
+    if([self colorForKey:@"color"]){
+        self.view.backgroundColor = [self colorForKey:@"color"];
+    }else{
+        //デフォルト
+        self.view.backgroundColor = [UIColor cyanColor];
+    }
     
     //押してないボタンは星をつけない
     for(int i = 101; i < 125; i++){
