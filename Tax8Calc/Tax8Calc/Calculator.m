@@ -152,7 +152,13 @@ float taxRate = 1.08;
             //
             // Perform the computation indicated by the saved operator between the saved operand and _display.
             // Place the result in _display.
-            if (_operator) {
+             
+             //連続でオペレーターを押せないようにする
+             if (!last_character_is_operator) {
+
+             if (_operator) {
+                
+                
                double operand2 = [[self displayValue] doubleValue];
                switch ([Operators rangeOfString: _operator].location) {
                   case 0:
@@ -169,6 +175,7 @@ float taxRate = 1.08;
                      break;
                        
                }
+                    }
                [_display setString: [[NSNumber numberWithDouble: _operand] stringValue]];
             }
             // Save the operation (if this is a chained computation).
