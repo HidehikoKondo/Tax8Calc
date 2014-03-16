@@ -109,15 +109,11 @@ float taxRate = 1.08;
          if (last_character_is_operator) {
             // Set the display to input_character.
              //ピリオドおした時はここに入る
-             /*
-             if(([_display isEqualToString:@""]) && [input_character isEqualToString:(NSString *)Period]){
-                 [_display appendString:@"0"];
-             }
-             
-             if(last_character_is_operator == YES && [input_character isEqualToString:(NSString *)Period]){
-                 [_display appendString:@"0"];
-             }
-             */
+             //オペレーターを押した後にピリオドを押したときは0.に置換
+
+              if([input_character isEqualToString:(NSString *)Period]){
+                  [input_character setString:@"0."];
+              }
              
             [_display setString: input_character];
             
@@ -126,6 +122,18 @@ float taxRate = 1.08;
          // Is input_character a digit, or is a period while a period has not been added to _display?
          else if (![input_character isEqualToString: (NSString *)Period] || [_display rangeOfString: (NSString *)Period].location == NSNotFound) {
             // Add input_character to _display.
+             
+             //ピリオドの処理
+             //いきなりピリオド押したときは0を追加
+             if(([_display isEqualToString:@""]) && [input_character isEqualToString:(NSString *)Period]){
+                 [_display appendString:@"0"];
+             }
+             
+             
+             if(last_character_is_operator == YES && [input_character isEqualToString:(NSString *)Period]){
+                 [_display appendString:@"0"];
+             }
+             
             [_display appendString:input_character];
          }
       }

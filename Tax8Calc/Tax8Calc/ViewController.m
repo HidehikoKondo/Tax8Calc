@@ -53,7 +53,7 @@
                         options:UIViewAnimationOptionCurveEaseIn
                      animations:^{
                          // 画像を2倍に拡大
-                         btn.transform = CGAffineTransformMakeScale(1.4, 1.4);
+                         btn.transform = CGAffineTransformMakeScale(1.3, 1.3);
                          btn.alpha = 0.1;
                          
                      } completion:^(BOOL finished) {
