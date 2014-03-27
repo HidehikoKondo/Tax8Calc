@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "Calculator.h"
+#import <iAd/iAd.h>
 
 @interface ViewController : UIViewController{
     id          displayField;
     Calculator *calculator;
-
+    bool bannerIsVisible;
 }
 
 @property (nonatomic) IBOutlet id displayField;

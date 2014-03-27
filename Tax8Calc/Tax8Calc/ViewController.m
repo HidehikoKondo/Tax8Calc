@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+
+
 @synthesize displayField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -82,7 +84,10 @@
     }else{
         //デフォルト
         self.view.backgroundColor = [UIColor cyanColor];
-    }}
+    }
+
+    bannerIsVisible = NO;
+}
 
 - (UIColor *)colorForKey:(NSString *)defaultName {
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];  // 取得
@@ -98,6 +103,31 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
+{
+    if (bannerIsVisible)
+    {
+        //バナーを隠します
+        [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
+        banner.frame = CGRectOffset(banner.frame, 0, -50);
+        [UIView commitAnimations];
+        bannerIsVisible = NO;
+    }
+}
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    if (!bannerIsVisible)
+    {
+        //バナーを表示します
+        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+        banner.frame = CGRectOffset(banner.frame, 0, 50);
+        [UIView commitAnimations];
+        bannerIsVisible = YES;
+    }
 }
 
 

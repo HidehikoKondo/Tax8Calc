@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface SettingViewController : UIViewController
+#import <iAd/iAd.h>
+@interface SettingViewController : UIViewController{
+    bool bannerIsVisible;
+}
+
+
 
 @end

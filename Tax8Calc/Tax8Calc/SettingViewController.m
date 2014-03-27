@@ -105,4 +105,30 @@
     [ud setObject:colorData forKey:defaultName];
 }
 
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
+{
+    if (bannerIsVisible)
+    {
+        //バナーを隠します
+        [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
+        banner.frame = CGRectOffset(banner.frame, 0, -50);
+        [UIView commitAnimations];
+        bannerIsVisible = NO;
+    }
+}
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    if (!bannerIsVisible)
+    {
+        //バナーを表示します
+        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+        banner.frame = CGRectOffset(banner.frame, 0, 50);
+        [UIView commitAnimations];
+        bannerIsVisible = YES;
+    }
+}
+
+
+
+
 @end
