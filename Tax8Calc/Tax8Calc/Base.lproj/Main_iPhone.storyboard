@@ -280,8 +280,8 @@
                                     <action selector="press:" destination="vXZ-lx-hvc" eventType="touchDown" id="f02-F5-oOq"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Vla-1t-DOV">
-                                <rect key="frame" x="0.0" y="-50" width="320" height="50"/>
+                            <adBannerView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="Vla-1t-DOV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="4mi-Sl-BBh"/>
@@ -320,8 +320,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Mwi-Td-QZA">
-                                <rect key="frame" x="0.0" y="-50" width="320" height="50"/>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="Mwi-Td-QZA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="qh3-K0-3IH" id="rh6-rQ-Cdz"/>

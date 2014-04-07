@@ -111,7 +111,7 @@
     {
         //バナーを隠します
         [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
-        banner.frame = CGRectOffset(banner.frame, 0, -50);
+        [banner setAlpha:0];
         [UIView commitAnimations];
         bannerIsVisible = NO;
     }
@@ -122,7 +122,7 @@
     {
         //バナーを表示します
         [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
-        banner.frame = CGRectOffset(banner.frame, 0, 50);
+        [banner setAlpha:1];
         [UIView commitAnimations];
         bannerIsVisible = YES;
     }
